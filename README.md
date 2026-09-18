@@ -132,4 +132,5 @@ variables need to change between local and AWS (`DB_HOST` → RDS endpoint,
 
 This is intentionally a single-user MVP: no auth, no file uploads, no
 real-time features. Authentication can be layered on top later without
-changing the schema or API shape.
+changing the schema or API shape. AWS can help with the auth, or we have
+other options like supabase, etc.
